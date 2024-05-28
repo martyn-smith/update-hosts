@@ -1,8 +1,7 @@
-#define TEST
 #ifdef TEST
 #define FNAME "test/hosts"
 #elif PROD
-#define FNMAE "/etc/hosts"
+#define FNAME "/etc/hosts"
 #endif
 #define MAX_TLD 63
 
